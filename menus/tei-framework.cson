@@ -1,0 +1,7 @@
+'context-menu':
+  '.tree-view .selected': [
+    {
+      label: 'Create file from template',
+      command: 'tei-framework:create-files-from-template'
+    }
+  ]

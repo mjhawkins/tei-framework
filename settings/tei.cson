@@ -1,0 +1,11 @@
+'.text.xml':
+  'validation':
+    'rules': [
+      {
+        priority: 1
+        test:
+          rootNs: "http://www.tei-c.org/ns/1.0"
+        outcome:
+          xmlCatalog: '../schemata/TEI/catalog.xml'
+      }
+    ]

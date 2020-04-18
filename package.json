@@ -1,0 +1,27 @@
+{
+  "name": "tei-framework",
+  "main": "./lib/tei-framework",
+  "version": "0.0.0",
+  "description": "A Framework package containing the Text Encoding Initiative (TEI) schema and template files. Requires the linter-autocomplete-jing package.",
+  "author": "Michael Hawkins (https://github.com/mjhawkins)",
+  "keywords": [
+    "TEI",
+    "Text Encoding Initiative",
+    "schema",
+    "template"
+  ],
+  "repository": "https://github.com/mjhawkins/tei-framework",
+  "bugs": "https://github.com/mjhawkins/tei-framework/issues",
+  "license": "BSD-2-Clause",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.1.0",
+    "fs-extra": "^0.26.2",
+    "fs-plus": "^2.8.1",
+    "loophole": "^1.1.0",
+    "space-pen": "^5.1.1",
+    "underscore": "^1.8.3"
+  }
+}
